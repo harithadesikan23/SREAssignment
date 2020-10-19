@@ -7,7 +7,9 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
 
 ![Workflow Chart](WorkflowChart.png)
 **Instructions to run the tool:**
+
 **For Windows:**
+
     1. Python 3.8.6 can be installed from a web based installer on Windows (setup the path variable if needed) and then install pip to install the packages. To install pip, download get-pip.py file from the internet and run the below command from a terminal.
         `python get-pip.py`
 
@@ -24,6 +26,7 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
         `pip install PyQt5`
 
  **For Mac:**
+
     1. Install homebrew if not already installed as it will be used to install python on mac.
 
     2. Now, install python and set up path variable in the ~/.bash_profile file. Note that pip3 comes installed with python3.
