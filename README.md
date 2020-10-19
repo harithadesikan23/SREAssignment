@@ -6,7 +6,28 @@
 The project also contains a unittest script (TestSRETool.py) which takes TestInput.csv as the input csv file. 
 
 **Instructions to run the tool:**
-    The project uses python 3.8.6 and pip to install the required packages. Additionally it requires the numpy, pandas and skimage packages to be installed. You can install them using the below pip commands:
+**For Windows:**
+    1. Python 3.8.6 can be installed from a web based installer on Windows (setup the path variable if needed) and then install pip to install the packages. To install pip, download get-pip.py file from the internet and run the below command from a terminal.
+        `python get-pip.py`
+    2. Before installing the packages, a virtual environment can be created using the below command from a terminal.
+        `py -m venv env`
+    2. Now, go to the project folder on a terminal and activate the virtual environment using the below command:
+        `.\env\Scripts\activate`
+    3. The project requires numpy, pandas and skimage packages to be installed. You can install them using the below pip commands:
+        `pip install numpy`
+        `pip install pandas`
+        `pip install skimage`
+ **For Mac:**
+    1. Install homebrew if not already installed as it will be used to install python on mac.
+    2. Now, install python and set up path variable in the ~/.bash_profile file. Note that pip3 comes installed with python3.
+        `$ brew install python3` 
+    3. Install virtual environment using below command from a terminal:
+        `$ pip install virtualenv`
+    4. Create the virtual environment using below command from a terminal:
+        `$ virtualenv -p python3 <desired-path>`
+    5. Activate the environment using below command from the project folder location:
+        `$ source <desired-path>/bin/activate`
+    6. The project requires numpy, pandas and skimage packages to be installed. You can install them using the below pip commands:
         `pip install numpy`
         `pip install pandas`
         `pip install skimage`
