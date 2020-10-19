@@ -17,6 +17,7 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
         `pip install numpy`
         `pip install pandas`
         `pip install scikit-image`
+        `pip install PyQt5`
  **For Mac:**
     1. Install homebrew if not already installed as it will be used to install python on mac.
     2. Now, install python and set up path variable in the ~/.bash_profile file. Note that pip3 comes installed with python3.
@@ -31,6 +32,7 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
         `pip install numpy`
         `pip install pandas`
         `pip install scikit-image`
+        `pip install PyQt5`
 
    Start using the tool by cloning the git repo contents to a local folder. Later open a command line terminal and navigate to the folder and execute the python script (SRETool.py). 
         For Example - `python .\SRETool.py`
