@@ -56,7 +56,11 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
     I came across a lot of python libraries like PIL, skimage and opencv that can deal with image comaprisons and found skimage to be the most appropriate as it comes with a method to calculate the structural similarity index between images. But since the method delivers a score of 1 for exactly similar image pairs, I had to write a conversion module that converts the score from a range of [-1,1] to [2,0]. Another problem was that the method did not work on images with different dimensions and so I had to crop the second image pair based on the first image pair's dimensions if they were different. 
 
 **Answer to the considerations:**
+    
     1. In order to make sure my code works, a unit test script is written along with a sample input to test the correctness of the application.
+
     2. Bjorn can refer the README that will provide him instructions to run the application.
+
     3. Ferris can have a local branch created for himself in the git repo and make changes if required followed by a code review before its being merged to the master branch.
+    
     4. Since the master branch is the one having the latest version of the application at any minute, Bjorn can be rest assured that he is using the latest version. He can pull the master branch to run the latest version of the application.
