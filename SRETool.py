@@ -20,7 +20,7 @@ class SRETool:
 
     def compute_similarity_score(self, df):
         """
-        Compute a structural similarity score for the image pair in each row of dataframe
+        Compute the structural similarity score and elapsed time for the image pairs and create output csv file
         """
         score_list = []
         elapsed_list = []
@@ -36,7 +36,7 @@ class SRETool:
             print(image1.shape)
             print(image2.shape)
             if(image1.shape != image2.shape):
-                image2 = resize(image2, (image1.shape))
+                image2 = resize(image2, (image1.shape)) # if images are of different dimensions, crop the second image based on first
             score = structural_similarity(image1, image2)
             new_score = self.__convert_similarity_score(round(score,1))
             print()
@@ -49,6 +49,9 @@ class SRETool:
         return output_df
 
     def __create_output_csv(self, df, score_list, elapsed_list):
+        """
+        Add the similarity score and elapsed time as columns to the dataframe and convert it to a csv
+        """
         df['Similar']=score_list
         df['Elapsed']=elapsed_list
         df.to_csv('Output.csv',index=False)
