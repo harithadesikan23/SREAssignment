@@ -47,7 +47,7 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
         `pip install scikit-image`
         `pip install PyQt5`
 
-   Start using the tool by cloning the git repo contents to a local folder. Later open a command line terminal and navigate to the folder and execute the python script (SRETool.py). 
+   Start using the tool by cloning the git repo contents to a local folder using `$ git clone https://github.com/harithadesikan23/SREAssignment.git`. Later open a command line terminal and navigate to the folder and execute the python script (SRETool.py). 
         For Example - `python .\SRETool.py`
 
     **Note:** Please change the absolute path for the images present in the Input.csv as applicable to your system.
