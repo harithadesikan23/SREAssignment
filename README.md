@@ -13,10 +13,10 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
         `py -m venv env`
     2. Now, go to the project folder on a terminal and activate the virtual environment using the below command:
         `.\env\Scripts\activate`
-    3. The project requires numpy, pandas and skimage packages to be installed. You can install them using the below pip commands:
+    3. The project requires numpy, pandas and scikit-image packages to be installed. You can install them using the below pip commands:
         `pip install numpy`
         `pip install pandas`
-        `pip install skimage`
+        `pip install scikit-image`
  **For Mac:**
     1. Install homebrew if not already installed as it will be used to install python on mac.
     2. Now, install python and set up path variable in the ~/.bash_profile file. Note that pip3 comes installed with python3.
@@ -27,10 +27,10 @@ The project also contains a unittest script (TestSRETool.py) which takes TestInp
         `$ virtualenv -p python3 <desired-path>`
     5. Activate the environment using below command from the project folder location:
         `$ source <desired-path>/bin/activate`
-    6. The project requires numpy, pandas and skimage packages to be installed. You can install them using the below pip commands:
+    6. The project requires numpy, pandas and scikit-image packages to be installed. You can install them using the below pip commands:
         `pip install numpy`
         `pip install pandas`
-        `pip install skimage`
+        `pip install scikit-image`
 
    Start using the tool by cloning the git repo contents to a local folder. Later open a command line terminal and navigate to the folder and execute the python script (SRETool.py). 
         For Example - `python .\SRETool.py`
