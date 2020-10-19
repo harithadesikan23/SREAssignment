@@ -5,6 +5,8 @@
     The tool is used to calculate the structural similarity of different image pairs and also find out the cost of the computation. The project folder contains a main python script (SRETool.py) which performs the operations stated above, it takes a csv file as input (Input.csv) and calculates a similarity score for the image pairs along with the time taken to compute the score and inserts the results into an output csv file (Output.csv). Sample image pairs are also present in the project folder (Firstpic.jpg & Secondpic.jpg, Sunset1.jpg & Sunset2.jpg, Soccerball1.jpg & Soccerball2.PNG). The Input.csv file uses these images to calculate the score and elapsed time. 
 The project also contains a unittest script (TestSRETool.py) which takes TestInput.csv as the input csv file. 
 
+![Workflow](Workflow Chart.png)
+
 **Instructions to run the tool:**
 **For Windows:**
     1. Python 3.8.6 can be installed from a web based installer on Windows (setup the path variable if needed) and then install pip to install the packages. To install pip, download get-pip.py file from the internet and run the below command from a terminal.
